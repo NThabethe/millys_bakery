@@ -1,0 +1,505 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!---------------- FAVICON ---------------->
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+        <!---------------- FONT AWESOME ---------------->
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+
+
+        <!---------------- SWIPER CSS ----------------> 
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+        <!---------------- CSS ---------------->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <title>Milly's Bakery</title>
+    </head>
+    <body>
+        <!---------------------- HEADER ---------------------->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                        <img src="img/favicon.png" width="40px"> Milly's Bakery
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#featured" class="nav__link">Featured</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">New</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="fa-solid fa-xmark" ></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="fa-solid fa-bars-staggered" ></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!---------------------- MAIN ---------------------->
+        <main class="main">
+            <!---------------------- HOME ---------------------->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__img-bg">
+                        <img src="img/homie.jpg" alt="" class="home__img">
+                    </div>
+    
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            Facebook
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            Twitter
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            Instagram
+                        </a>
+                    </div>
+    
+                    <div class="home__data">
+                        <h1 class="home__title">DELICIOUS<br>CHOCOLATE CAKES</h1>
+                        <p class="home__description">
+                            Latest arrival of the new seasonal recipe of Milly's Cake, 
+                            with modern and elegant presentations.
+                        </p>
+                        <span class="home__price">R2 545</span>
+
+                        <div class="home__btns">
+                            <a href="#newsletter" class="button button--gray button--small">
+                                Subscribe
+                            </a>
+
+                            <button class="button home__button">TO OUR NEWSLETTER</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!---------------------- FEATURED ---------------------->
+            <section class="featured section container" id="featured">
+                <h2 class="section__title">
+                    Featured Wedding Cakes
+                </h2>
+
+                <div class="featured__container grid">
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="img/row 1 A.jpg" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">JAZZ SNOW</h3>
+                            <span class="featured__price">R1 050</span>
+                        </div>
+
+                        <p>
+                            "Love has four letters, and so does cake."
+                        </p>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="img/row 1 B.jpg" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">MELTING MUD</h3>
+                            <span class="featured__price">R2 250</span>
+                        </div>
+
+                        <p>
+                            "Love is the frosting of life."
+                        </p>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="img/row 1 C.jpg" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">PYRAMID SCULPT</h3>
+                            <span class="featured__price">R1 890</span>
+                        </div>
+
+                        <p>
+                            "A slice of my life is but a piece of cake."
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <!---------------------- STORY ---------------------->
+            <section class="story section container">
+                <div class="story__container grid">
+                    <div class="story__data">
+                        <h2 class="section__title story__section-title">
+                            Our Story
+                        </h2>
+    
+                        <h1 class="story__title">
+                            Inspirational cream of <br> this year
+                        </h1>
+    
+                        <p class="story__description">
+                            Our latest and flavoursome Taupe cream, is available in various 
+                            presentations on this website. We pride ourselves with keeping 
+                            our recipes a mystery. The chef does this because she believes 
+                            that every recipe is an art piece.  
+                        </p>
+    
+                        
+                    </div>
+
+                    <div class="story__images">
+                        <img src="img/storyy.jpg" alt="" class="story__img">
+                        <div class="story__square"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!---------------------- PRODUCTS ---------------------->
+            <section class="products section container" id="products">
+                <h2 class="section__title">
+                    SEASONAL MILLY'S CAKES
+                </h2>
+
+                <div class="products__container grid">
+                    <article class="products__card">
+                        <img src="img/row 2 A.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">GOTH PRINCESS</h3>
+                        <span class="products__price">R1 500</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="img/row 2 B.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">TAUPE SPONGE</h3>
+                        <span class="products__price">R2 545</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="img/row 2 C.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">JUBILEE BLACK</h3>
+                        <span class="products__price">R1 870</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="img/row 2 D.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">FOSSIL TOWER</h3>
+                        <span class="products__price">R1 650</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="img/row 2 E.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">COCO SPILL</h3>
+                        <span class="products__price">R1 950</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+            <!---------------------- TESTIMONIAL ---------------------->
+            <section class="testimonial section container">
+                <div class="testimonial__container grid">
+                    <div class="swiper testimonial-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    "It has been a delight ordering from Milly's Bakery. The ordered cake was 
+                                    finished right on time. Everyone enjoyed the mouth watering taste of the chocolate cream and sponge."
+                                </p>
+                                <h3 class="testimonial__date">March 27. 2022</h3>
+        
+                                <div class="testimonial__perfil">
+                                    <img src="img/testimonial 1.jpg" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Lindo Zungu</span>
+                                        <span class="testimonial__perfil-detail">Happy customer</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    "I enjoy working with our dedicated team that lives and breathes serving our community.
+                                    The head chef is determined to grow the business by challenging all of us to work harder, 
+                                    and become the best by being absolutely unique."  
+                                </p>
+                                <h3 class="testimonial__date">March 27. 2022</h3>
+        
+                                <div class="testimonial__perfil">
+                                    <img src="img/testimonial 2.jpg" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Samantha Zulu</span>
+                                        <span class="testimonial__perfil-detail">Director of marketing</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    "Thank you Milly's Bakery, the cake I ordered was my 1st ever gift to my special someone.
+                                    She was pleased by the taste, quality and classy presentation of the cake. I will purchase
+                                    more from now on." 
+                                </p>
+                                <h3 class="testimonial__date">March 27. 2022</h3>
+        
+                                <div class="testimonial__perfil">
+                                    <img src="img/testimonial 3.jpg" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Vusi Nkomo</span>
+                                        <span class="testimonial__perfil-detail">Happy customer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-button-next">
+                            <i class="fa-solid fa-angle-right" ></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="fa-solid fa-angle-left" ></i>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__images">
+                        <div class="testimonial__square"></div>
+                        <img src="img/testi.jpg" alt="" class="testimonial__img">
+                    </div>
+                </div>
+            </section>
+
+            <!---------------------- NEW ---------------------->
+            <section class="new section container" id="new">
+                <h2 class="section__title">
+                    NEW ARRIVALS
+                </h2>
+                
+                <div class="new__container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="img/row 3 A.jpg" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">SMEARED MUD</h3>
+                                    <span class="new__price">R1 980</span>
+                                </div>
+        
+                                <button class="button new__button">"Happiness is when you're having a bad day, and it suddenly rains Milly's Cakes"</button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="img/row 3 B.jpg" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">PIRATE DELITE</h3>
+                                    <span class="new__price">R3 150</span>
+                                </div>
+        
+                                <button class="button new__button">"Pick up all the broken shards of your life and bake them into a Milly's Cake."</button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="img/row 3 C.jpg" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">DREYFUSS BLACK</h3>
+                                    <span class="new__price">R1 750</span>
+                                </div>
+        
+                                <button class="button new__button">"Do not touch my cake! Violators will be covered in black berries."</button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="img/row 3 D.jpg" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">KHAKI ROSE</h3>
+                                    <span class="new__price">R1 590</span>
+                                </div>
+        
+                                <button class="button new__button">"All you need is love. But a Milly's Cake would also be nice."</button>
+                            </article>                       
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!---------------------- NEWSLETTER ---------------------->
+            <section class="newsletter section container" id="newsletter">
+                <div class="newsletter__bg grid">
+                    <div>
+                        <h2 class="newsletter__title">Subscribe To Our <br> Newsletter</h2>
+                        <p class="newsletter__description">
+                            Don't miss out on your discounts. Subscribe to our email 
+                            newsletter to get the best offers, discounts, coupons, 
+                            gifts and much more.
+                        </p>
+                    </div>
+
+                    <form action="" class="newsletter__subscribe" id="contact-form">
+                        <input type="email" name="user__email" placeholder="Enter your email" class="newsletter__input" id="contact-user">
+                        <button type="submit" class="button">
+                            SUBSCRIBE
+                        </button>
+                    </form>
+
+                    <p class="newsletter__message" id="contact-message"></p>
+                </div>
+            </section>
+        </main>
+
+        <!---------------------- FOOTER ---------------------->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Our information</h3>
+
+                    <ul class="footer__list">
+                        <li>6027 Nyathi Street</li>
+                        <li>Ratanda Ext 23, 1441 </li>
+                        <li>+27 71 811 1790</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Support</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="" class="footer__link">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer__link">Support Center</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Product</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Wedding Cakes</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Seasonal Cakes</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Cup Cakes</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Socials</h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <span class="footer__copy">&#169; Made with <i class="fa-regular fa-heart"></i> by N.Thabethe. All rights reserved</span>
+        </footer>
+
+        <!---------------------- SCROLL UP ---------------------->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="fa-solid fa-arrow-up scrollup__icon" ></i>
+        </a>
+
+        <!--------------- SCROLL REVEAL --------------->
+        <script src="js/scrollreveal.min.js"></script>
+
+        <!---------------------- SWIPER ---------------------->
+        <script src="js/swiper-bundle.min.js"></script>
+
+        <!------------------ EMAIL JS ------------------>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        
+        <!---------------------- MAIN JS ---------------------->
+        <script src="js/main.js"></script>
+    </body>
+</html>
